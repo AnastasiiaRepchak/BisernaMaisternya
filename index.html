@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Автентичні українські бісерні прикраси ручної роботи. Оберіть готову прикрасу або створіть власну."
+    >
+    <title>Бісерна майстерня — Головна</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div
+        class="container flex min-h-[4.5rem] items-center justify-between gap-3 py-3 lg:gap-6"
+      >
+        <a class="logo" href="#home" aria-label="Бісерна майстерня — на головну">
+          <img src="assets/logo/logo.png" alt="Бісерна майстерня">
+        </a>
+
+        <nav class="ml-auto min-w-0 flex-1" aria-label="Головна навігація">
+          <ul
+            class="flex flex-wrap items-center justify-end gap-x-3 gap-y-2 md:justify-between md:gap-3 lg:gap-6"
+          >
+            <li>
+              <a
+                class="text-sm text-[#5a5a65] transition-colors hover:text-[#cc0033] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]"
+                href="#catalog"
+              >Каталог</a>
+            </li>
+            <li>
+              <a
+                class="text-sm text-[#5a5a65] transition-colors hover:text-[#cc0033] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]"
+                href="#calculator"
+              >Калькулятор</a>
+            </li>
+            <li>
+              <a
+                class="text-sm text-[#5a5a65] transition-colors hover:text-[#cc0033] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]"
+                href="#about"
+              >Про майстерню</a>
+            </li>
+            <li>
+              <a
+                class="text-sm text-[#5a5a65] transition-colors hover:text-[#cc0033] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]"
+                href="#contacts"
+              >Контакти</a>
+            </li>
+            <li class="basis-full pt-1 md:basis-auto md:pt-0">
+              <a
+                class="btn btn-primary flex w-full !px-3 !text-xs md:w-auto lg:!px-6 lg:!text-sm"
+                href="#calculator"
+              >Кастомізувати прикрасу</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero-block" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="badge">Бісерна ручна робота з України</p>
+            <h1 class="hero-title" id="hero-title">
+              Автентичні бісерні прикраси ручної роботи з прозорим розрахунком.
+            </h1>
+            <p class="hero-description">
+              Традиційні ґердани, силянки та кризи з чеського бісеру Preciosa.
+              Обирайте з наявності або розрахуйте вартість унікальної прикраси
+              без очікування відповіді в Direct.
+            </p>
+            <div class="hero-buttons">
+              <a class="btn btn-primary" href="#calculator">Кастомізувати прикрасу</a>
+              <a class="btn btn-secondary" href="#catalog">Перейти до каталогу <span aria-hidden="true">↗</span></a>
+            </div>
+            <ul class="hero-tags" aria-label="Наші переваги">
+              <li>Чеський бісер Preciosa</li>
+              <li>Ручне плетіння</li>
+            </ul>
+          </div>
+          <div class="hero-image">
+            <img
+              src="assets/images/hero_bg.png"
+              alt="Комплект бісерних прикрас у традиційному українському стилі"
+              fetchpriority="high"
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section features-block" aria-labelledby="features-title">
+        <div class="container">
+          <p class="section-badge">Продумано до кожної намистини</p>
+          <h2 class="section-title" id="features-title">Особиста прикраса. Зрозумілий вибір.</h2>
+          <div class="features-grid">
+            <article class="feature-card">
+              <h3 class="card-title">Ручна робота</h3>
+              <p class="card-desc">Кожна прикраса сплетена вручну з увагою до орнаменту й деталей.</p>
+            </article>
+            <article class="feature-card">
+              <h3 class="card-title">Прозорий розрахунок</h3>
+              <p class="card-desc">Попередня оцінка вартості за обраними параметрами — ще до розмови.</p>
+            </article>
+            <article class="feature-card">
+              <h3 class="card-title">Ваші розміри й матеріали</h3>
+              <p class="card-desc">Оберіть розмір, бісер і поєднання, що пасуватиме саме вам.</p>
+            </article>
+            <article class="feature-card">
+              <h3 class="card-title">На зв'язку з майстринею</h3>
+              <p class="card-desc">Обговоріть задум, кольори та деталі безпосередньо з авторкою.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section options-block section-alt" id="catalog" aria-labelledby="catalog-title">
+        <div class="container">
+          <p class="section-badge">Підбір та кастомізація</p>
+          <h2 class="section-title" id="catalog-title">З чого почнеться ваша прикраса?</h2>
+          <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <article class="option-card">
+              <img class="card-icon" src="assets/icons/icon_catalog.svg" alt="" width="214" height="181" loading="lazy">
+              <h3 class="card-title">Готові прикраси</h3>
+              <p class="card-desc">Перегляньте готові прикраси з бісеру та оберіть ту, що відгукується саме вам.</p>
+              <a class="btn btn-primary" href="#catalog">Переглянути каталог</a>
+            </article>
+            <article class="option-card" id="calculator">
+              <img class="card-icon" src="assets/icons/icon_calculation.svg" alt="" width="155" height="186" loading="lazy">
+              <h3 class="card-title">Індивідуальне замовлення</h3>
+              <p class="card-desc">Маєте власну ідею? Задайте розміри й матеріали, щоб попередньо оцінити прикрасу.</p>
+              <a class="btn btn-primary" href="landing.html">Розрахувати вартість продукту</a>
+            </article>
+            <article class="option-card">
+              <img class="card-icon" src="assets/icons/icon_search.svg" alt="" width="198" height="204" loading="lazy">
+              <h3 class="card-title">Підбір подарунка</h3>
+              <p class="card-desc">Знайдіть особливу прикрасу для близької людини з урахуванням вподобань.</p>
+              <a class="btn btn-primary" href="mailto:maisternia@biserna.ua">Знайти подарунок</a>
+            </article>
+            <article class="option-card">
+              <img class="card-icon" src="assets/icons/icon_filters.svg" alt="" width="201" height="190" loading="lazy">
+              <h3 class="card-title">Підбір за стилем</h3>
+              <p class="card-desc">Підберіть прикрасу за кольорами, орнаментом і стилем, який пасує саме вам.</p>
+              <a class="btn btn-primary" href="mailto:maisternia@biserna.ua">Обрати стиль</a>
+            </article>
+            <article class="option-card">
+              <img class="card-icon" src="assets/icons/icon_home.svg" alt="" width="174" height="190" loading="lazy">
+              <h3 class="card-title">Знайомство з майстернею</h3>
+              <p class="card-desc">Дізнайтеся більше про майстриню, традиції та створення прикрас вручну.</p>
+              <a class="btn btn-primary" href="#about">Про майстерню</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section about-block" id="about" aria-labelledby="about-title">
+        <div class="container about-inner">
+          <figure class="about-image">
+            <img
+              src="assets/images/hero_bg.png"
+              alt="Бісерні прикраси, створені вручну"
+              loading="lazy"
+            >
+            <figcaption class="image-caption">Бісер, орнамент і терпляча ручна робота.</figcaption>
+          </figure>
+          <div class="about-text">
+            <p class="section-badge">З майстерні Biserna</p>
+            <h2 class="section-title" id="about-title">Традиція, яку хочеться носити.</h2>
+            <p class="about-desc">
+              Український орнамент оживає в ритмі бісерин. Ґердани, силянки та
+              кризи ми плетемо вручну — з увагою до кольору, фактури та вашого задуму.
+            </p>
+            <ul class="about-list">
+              <li>Чеський бісер Preciosa</li>
+              <li>Орнаменти української народної традиції</li>
+              <li>Кольори та матеріали узгоджуємо разом</li>
+            </ul>
+            <a class="btn btn-outline" href="#contacts">Зв'язатися з майстернею</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section steps-block section-alt" aria-labelledby="steps-title">
+        <div class="container">
+          <p class="section-badge">Від задуму до прикраси</p>
+          <h2 class="section-title" id="steps-title">Простий шлях до вашої прикраси</h2>
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-num" aria-hidden="true">01</span>
+              <h3 class="card-title">Оберіть своє</h3>
+              <p class="card-desc">Знайдіть прикрасу в каталозі або задайте розміри й матеріали в калькуляторі.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-num" aria-hidden="true">02</span>
+              <h3 class="card-title">Надішліть параметри</h3>
+              <p class="card-desc">Передайте обрані параметри майстрині для перегляду та обговорення задуму.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-num" aria-hidden="true">03</span>
+              <h3 class="card-title">Узгодьте деталі</h3>
+              <p class="card-desc">Погодьте кольори й остаточну вартість та отримайте прикрасу ручної роботи.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section testimonials-block" id="reviews" aria-labelledby="reviews-title">
+        <div class="container">
+          <p class="section-badge">Відгуки</p>
+          <h2 class="section-title" id="reviews-title">Прикраси стають частиною історій</h2>
+          <div class="testimonials-grid">
+            <figure class="testimonial-card">
+              <blockquote class="quote">
+                «Намисто «Калина» прийшло із запискою, написаною від руки. Червоний
+                бісер має глибший колір, ніж може передати фото.»
+              </blockquote>
+              <figcaption>
+                <span class="author">Оксана Петренко</span>
+                <span class="city">Київ, Україна</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote class="quote">
+                «Я попросила зробити браслет на замовлення в зеленому й чорному
+                кольорах. Майстриня надіслала фото бісеру ще до початку роботи.»
+              </blockquote>
+              <figcaption>
+                <span class="author">Марта Коваленко</span>
+                <span class="city">Львів, Україна</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-block" aria-labelledby="cta-title">
+        <div class="container cta-inner">
+          <h2 class="section-title" id="cta-title">Знайдіть ту, що відгукується вам.</h2>
+          <p class="cta-desc">
+            Оберіть готову прикрасу з каталогу або почніть власну — з розмірів,
+            матеріалів і вашої ідеї.
+          </p>
+          <div class="cta-buttons">
+            <a class="btn btn-primary" href="#calculator">Кастомізувати прикрасу</a>
+            <a class="btn btn-secondary" href="#catalog">Перейти до каталогу</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-[#eaeaeF] py-12 pb-4" id="contacts">
+      <div class="container">
+        <div class="mb-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <section class="flex flex-col items-start gap-3" aria-labelledby="footer-brand-title">
+            <a
+              class="logo rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#cc0033]"
+              href="#home"
+              aria-label="Бісерна майстерня — на головну"
+            >
+              <img src="assets/logo/logo.png" alt="Бісерна майстерня">
+            </a>
+            <h2 class="font-sans font-semibold text-[#1a1a1e]" id="footer-brand-title">Прикраси з українською душею</h2>
+            <p class="text-sm leading-relaxed text-[#5a5a65]">Автентичні бісерні прикраси ручної роботи. Створено вручну. Збережено з любов'ю.</p>
+          </section>
+
+          <nav aria-labelledby="footer-navigation-title">
+            <h2 class="mb-3 font-sans text-sm font-semibold text-[#1a1a1e]" id="footer-navigation-title">Навігація</h2>
+            <ul class="grid gap-2">
+              <li>
+                <a class="text-sm text-[#5a5a65] transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="#home">Головна</a>
+              </li>
+              <li>
+                <a class="text-sm text-[#5a5a65] transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="#catalog">Каталог</a>
+              </li>
+              <li>
+                <a class="text-sm text-[#5a5a65] transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="#calculator">Калькулятор</a>
+              </li>
+              <li>
+                <a class="text-sm text-[#5a5a65] transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="#about">Про майстерню</a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav aria-labelledby="footer-services-title">
+            <h2 class="mb-3 font-sans text-sm font-semibold text-[#1a1a1e]" id="footer-services-title">Послуги та корисне</h2>
+            <ul class="grid gap-2">
+              <li>
+                <a class="text-sm text-[#5a5a65] transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="#catalog">Готові прикраси</a>
+              </li>
+              <li>
+                <a class="text-sm text-[#5a5a65] transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="#calculator">Індивідуальне замовлення</a>
+              </li>
+              <li>
+                <a class="text-sm text-[#5a5a65] transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="#reviews">Відгуки</a>
+              </li>
+              <li>
+                <a class="text-sm text-[#5a5a65] transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="mailto:maisternia@biserna.ua">Поширені запитання</a>
+              </li>
+            </ul>
+          </nav>
+
+          <section aria-labelledby="footer-contact-title">
+            <h2 class="mb-3 font-sans text-sm font-semibold text-[#1a1a1e]" id="footer-contact-title">Контакти</h2>
+            <address class="grid gap-2 text-sm not-italic text-[#5a5a65]">
+              <span>Київ, Україна · Доставка по всьому світу</span>
+              <a
+                class="w-fit transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]"
+                href="mailto:maisternia@biserna.ua"
+              >maisternia@biserna.ua</a>
+            </address>
+          </section>
+        </div>
+
+        <div class="flex flex-col gap-3 border-t border-[#eaeaeF] pt-4 text-xs text-[#5a5a65] md:flex-row md:items-center md:justify-between">
+          <p>© Biserna Майстерня. Усі права захищено.</p>
+          <nav class="flex flex-wrap gap-4" aria-label="Юридична інформація">
+            <a
+              class="transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]"
+              href="mailto:maisternia@biserna.ua"
+            >Політика конфіденційності</a>
+            <a
+              class="transition-colors hover:text-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]"
+              href="mailto:maisternia@biserna.ua"
+            >Умови користування</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

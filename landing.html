@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Розрахуйте орієнтовну вартість авторської бісерної прикраси та надішліть заявку майстерні."
+    >
+    <meta name="theme-color" content="#ffffff">
+    <title>Розрахунок авторської прикраси — Бісерна майстерня</title>
+    <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+    <link
+      rel="preload"
+      as="image"
+      href="assets/images/hero_bg-optimized.jpg"
+      fetchpriority="high"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="landing-page bg-white font-['Plus_Jakarta_Sans',sans-serif] text-[#1a1a1e] antialiased">
+    <header class="border-b border-[#eaeaeF] bg-white">
+      <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-4 sm:flex-row md:px-6 lg:px-8">
+        <a
+          class="rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#cc0033]"
+          href="index.html"
+          aria-label="Бісерна майстерня — головна"
+        >
+          <img class="w-32" src="assets/logo/logo.png" alt="Бісерна майстерня" width="240" height="64">
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="bg-[#f9fafb]" aria-labelledby="hero-title">
+        <div class="mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 py-8 md:grid-cols-2 md:gap-8 md:px-6 md:py-12 lg:gap-12 lg:px-8 lg:py-12">
+          <div class="max-w-2xl">
+            <p class="mb-3 inline-flex rounded-md bg-[#ffcc66] px-3 py-1 text-xs font-bold uppercase tracking-[0.08em] text-[#1a1a1e]">
+              Ручна робота з українською душею
+            </p>
+            <h1 id="hero-title" class="max-w-2xl font-['Cormorant_Garamond',Georgia,serif] text-[clamp(2.5rem,5vw,3.5rem)] font-bold leading-[1.08] text-[#1a1a1e]">
+              Авторські бісерні прикраси з прозорим розрахунком
+            </h1>
+            <p class="mt-4 max-w-xl text-lg font-medium leading-relaxed text-[#5a5a65]">
+              Дізнайтеся орієнтовну вартість за 10 секунд — без очікування відповіді в Direct.
+            </p>
+            <p class="mt-4 max-w-xl leading-7 text-[#5a5a65]">
+              Ґердани, силянки, кризи та браслети з якісного бісеру й фурнітури. Оберіть параметри, залиште заявку — майстриня підтвердить деталі та вартість.
+            </p>
+            <a
+              class="mt-6 flex min-h-14 w-full items-center justify-center rounded-xl bg-[#cc0033] px-3 py-4 text-center text-lg font-bold text-white transition-all duration-200 hover:-translate-y-1 hover:bg-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2 design-shadow sm:w-fit sm:px-8"
+              href="#calculator"
+            >
+              Розрахувати вартість
+              <span class="ml-2" aria-hidden="true">↓</span>
+            </a>
+            <p class="mt-3 text-sm text-[#5a5a65]">Без зобов’язань до замовлення · Відповідь майстрині особисто</p>
+          </div>
+          <figure class="w-full md:justify-self-end">
+            <img
+              class="aspect-[4/3] w-full rounded-xl object-cover design-shadow"
+              src="assets/images/hero_bg-optimized.jpg"
+              alt="Авторський комплект бісерних прикрас з традиційним українським орнаментом"
+              width="1200"
+              height="674"
+              fetchpriority="high"
+            >
+            <figcaption class="mt-3 text-center text-sm text-[#5a5a65] md:text-left">
+              Створено вручну — з увагою до кожної бісерини
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="py-12 md:py-12" aria-labelledby="advantages-title">
+        <div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
+          <p class="mb-2 text-sm font-bold uppercase tracking-[0.08em] text-[#cc0033]">Чесно від першого кроку</p>
+          <h2 id="advantages-title" class="mb-8 font-['Cormorant_Garamond',Georgia,serif] text-3xl font-bold sm:text-4xl">
+            Прикраса, у якій усе має значення
+          </h2>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <article class="rounded-xl border border-[#eaeaeF] bg-white p-6 transition-all duration-200 hover:-translate-y-1 design-shadow">
+              <span class="mb-4 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#ffcc66] text-[#1a1a1e] md:h-11 md:w-11" aria-hidden="true">
+                <svg class="h-5 w-5 md:h-6 md:w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <circle cx="12" cy="12" r="8.5"></circle>
+                  <path d="M14.8 8.8h-3.4a1.8 1.8 0 0 0 0 3.6h1.2a1.8 1.8 0 0 1 0 3.6H9.2M12 6.8v10.4"></path>
+                </svg>
+              </span>
+              <h3 class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Прозоре ціноутворення</h3>
+              <p class="mt-2 leading-7 text-[#5a5a65]">Орієнтир залежить від типу виробу, довжини та складності — зрозуміло ще до підтвердження замовлення.</p>
+            </article>
+            <article class="rounded-xl border border-[#eaeaeF] bg-white p-6 transition-all duration-200 hover:-translate-y-1 design-shadow">
+              <span class="mb-4 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#ffcc66] text-[#1a1a1e] md:h-11 md:w-11" aria-hidden="true">
+                <svg class="h-5 w-5 md:h-6 md:w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <path d="M3.5 9.5c2.2 4.7 5.1 7 8.5 7s6.3-2.3 8.5-7"></path>
+                  <circle cx="5.2" cy="10.8" r="1.5"></circle>
+                  <circle cx="9.5" cy="15.3" r="1.5"></circle>
+                  <circle cx="14.5" cy="15.3" r="1.5"></circle>
+                  <circle cx="18.8" cy="10.8" r="1.5"></circle>
+                </svg>
+              </span>
+              <h3 class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Матеріали для щоденного комфорту</h3>
+              <p class="mt-2 leading-7 text-[#5a5a65]">Якісний чеський Preciosa або японський Miyuki та фурнітура з нержавіючої сталі 316L.</p>
+            </article>
+            <article class="rounded-xl border border-[#eaeaeF] bg-white p-6 transition-all duration-200 hover:-translate-y-1 design-shadow">
+              <span class="mb-4 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#ffcc66] text-[#1a1a1e] md:h-11 md:w-11" aria-hidden="true">
+                <svg class="h-5 w-5 md:h-6 md:w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <path d="M12 3.5 19.5 12 12 20.5 4.5 12 12 3.5Z"></path>
+                  <path d="M12 7.5 16 12l-4 4.5L8 12l4-4.5Z"></path>
+                  <circle cx="12" cy="12" r="1"></circle>
+                </svg>
+              </span>
+              <h3 class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Традиція та якість</h3>
+              <p class="mt-2 leading-7 text-[#5a5a65]">Українські мотиви, дбайливе ручне плетіння й увага до кольору, орнаменту та фінішних деталей.</p>
+            </article>
+          </div>
+          <!-- YouTube integration: show a local preview first; load the external player only after the visitor clicks. -->
+          <figure class="mt-8">
+            <div id="video-container" class="relative aspect-video w-full overflow-hidden rounded-xl design-shadow">
+              <img
+                class="h-full w-full object-cover"
+                src="assets/images/hero_bg-optimized.jpg"
+                alt="Прев’ю відеопрезентації авторських бісерних прикрас"
+                width="1200"
+                height="674"
+                loading="lazy"
+              >
+              <div class="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-[#1a1a1e]/30">
+                <svg class="h-16 w-16 drop-shadow-lg md:h-20 md:w-20" viewBox="0 0 68 48" aria-hidden="true" focusable="false">
+                  <path d="M66.52 7.74a8 8 0 0 0-5.64-5.66C55.9.72 34 .72 34 .72S12.1.72 7.12 2.08a8 8 0 0 0-5.64 5.66C.12 12.74.12 24 .12 24s0 11.26 1.36 16.26a8 8 0 0 0 5.64 5.66C12.1 47.28 34 47.28 34 47.28s21.9 0 26.88-1.36a8 8 0 0 0 5.64-5.66C67.88 35.26 67.88 24 67.88 24s0-11.26-1.36-16.26Z" fill="#FF0033"/>
+                  <path d="m27.2 34.3 18.2-10.3-18.2-10.3v20.6Z" fill="#fff"/>
+                </svg>
+                <button
+                  id="video-consent-button"
+                  class="inline-flex min-h-11 items-center justify-center rounded-xl bg-[#cc0033] px-5 py-2 text-sm font-semibold text-white transition-all duration-200 hover:bg-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a1a1e]"
+                  type="button"
+                  aria-controls="video-container"
+                  aria-label="Погодитися на завантаження та переглянути відео з YouTube"
+                  data-video-src="https://www.youtube-nocookie.com/embed/fIcQUis0ltg"
+                >
+                  Переглянути відео
+                </button>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="bg-[#f9fafb] py-12 md:py-12" aria-labelledby="process-title">
+        <div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
+          <p class="mb-2 text-sm font-bold uppercase tracking-[0.08em] text-[#cc0033]">Три прості кроки</p>
+          <h2 id="process-title" class="mb-8 font-['Cormorant_Garamond',Georgia,serif] text-3xl font-bold sm:text-4xl">
+            Від вашої ідеї — до готової прикраси
+          </h2>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <article class="rounded-xl bg-white p-6 transition-all duration-200 hover:-translate-y-1 design-shadow">
+              <p class="mb-4 text-sm font-bold tracking-widest text-[#cc0033]">КРОК 01</p>
+              <h3 class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Оберіть параметри</h3>
+              <p class="mt-2 leading-7 text-[#5a5a65]">Вкажіть тип прикраси, розмір і складність орнаменту в одній формі.</p>
+            </article>
+            <article class="rounded-xl bg-white p-6 transition-all duration-200 hover:-translate-y-1 design-shadow">
+              <p class="mb-4 text-sm font-bold tracking-widest text-[#cc0033]">КРОК 02</p>
+              <h3 class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Надішліть заявку</h3>
+              <p class="mt-2 leading-7 text-[#5a5a65]">Залиште ім’я та контакт, щоб майстриня могла відповісти й уточнити ваші побажання.</p>
+            </article>
+            <article class="rounded-xl bg-white p-6 transition-all duration-200 hover:-translate-y-1 design-shadow">
+              <p class="mb-4 text-sm font-bold tracking-widest text-[#cc0033]">КРОК 03</p>
+              <h3 class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Узгодьте деталі</h3>
+              <p class="mt-2 leading-7 text-[#5a5a65]">Майстриня обговорить задум і підтвердить матеріали та вартість до початку плетіння.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-[#f9fafb] py-12 md:py-12" aria-labelledby="trust-title">
+        <div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
+          <p class="mb-2 text-sm font-bold uppercase tracking-[0.08em] text-[#cc0033]">Без несподіванок після заявки</p>
+          <h2 id="trust-title" class="mb-8 font-['Cormorant_Garamond',Georgia,serif] text-3xl font-bold sm:text-4xl">
+            Умови замовлення — зрозумілі заздалегідь
+          </h2>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <article class="rounded-xl bg-white p-6 transition-all duration-200 hover:-translate-y-1 design-shadow">
+              <h3 class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Фінальну ціну погодимо до роботи</h3>
+              <p class="mt-2 leading-7 text-[#5a5a65]">Орієнтовний розрахунок не зобов’язує до покупки. Плетіння розпочнеться лише після узгодження матеріалів, дизайну та вартості.</p>
+            </article>
+            <article class="rounded-xl bg-white p-6 transition-all duration-200 hover:-translate-y-1 design-shadow">
+              <h3 class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Пакування та доставку узгодимо окремо</h3>
+              <p class="mt-2 leading-7 text-[#5a5a65]">Кожне замовлення дбайливо готуємо до перевезення; спосіб і деталі доставки погоджуємо з вами.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="calculator" class="scroll-mt-6 py-12 md:py-12" aria-labelledby="calculator-title">
+        <div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
+          <p class="mb-2 text-sm font-bold uppercase tracking-[0.08em] text-[#cc0033]">Ваш задум — наш розрахунок</p>
+          <h2 id="calculator-title" class="font-['Cormorant_Garamond',Georgia,serif] text-3xl font-bold sm:text-4xl">
+            Порахуйте вартість прикраси
+          </h2>
+          <p class="mt-3 max-w-2xl leading-7 text-[#5a5a65]">
+            Оберіть параметри та надішліть заявку. Майстриня перевірить складність орнаменту й підтвердить точну ціну до початку роботи.
+          </p>
+
+          <form
+            class="mt-8 grid min-w-0 grid-cols-1 gap-4 md:grid-cols-2 md:gap-6"
+            action="mailto:maisternia@biserna.ua"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="flex min-w-0 flex-col gap-4">
+              <fieldset class="min-w-0 rounded-xl border border-[#eaeaeF] p-4 sm:p-6">
+                <legend class="px-2 font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Параметри виробу</legend>
+                <div class="mt-3 space-y-4">
+                <div>
+                  <label class="mb-2 block text-sm font-semibold" for="product">Тип прикраси</label>
+                  <select
+                    class="min-h-12 w-full rounded-xl border border-[#8e8e93] bg-white px-4 text-base focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2"
+                    id="product"
+                    name="Тип прикраси"
+                    required
+                  >
+                    <option value="Ґердан">Ґердан</option>
+                    <option value="Силянка">Силянка</option>
+                    <option value="Криза">Криза</option>
+                    <option value="Браслет">Браслет</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="mb-2 block text-sm font-semibold" for="length">Розмір / довжина (см)</label>
+                  <input
+                    class="min-h-12 w-full rounded-xl border border-[#8e8e93] bg-white px-4 text-base focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2"
+                    id="length"
+                    name="Розмір (см)"
+                    type="number"
+                    min="5"
+                    max="100"
+                    value="20"
+                    inputmode="numeric"
+                    required
+                  >
+                </div>
+                <fieldset>
+                  <legend class="mb-2 block text-sm font-semibold">Складність орнаменту</legend>
+                  <div class="space-y-2">
+                    <label class="flex min-h-11 items-center gap-3 rounded-lg px-2">
+                      <input class="h-5 w-5 accent-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2" type="radio" name="Складність" value="Проста" checked>
+                      <span>Проста — лаконічний візерунок</span>
+                    </label>
+                    <label class="flex min-h-11 items-center gap-3 rounded-lg px-2">
+                      <input class="h-5 w-5 accent-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2" type="radio" name="Складність" value="Середня">
+                      <span>Середня — деталізований орнамент</span>
+                    </label>
+                    <label class="flex min-h-11 items-center gap-3 rounded-lg px-2">
+                      <input class="h-5 w-5 accent-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2" type="radio" name="Складність" value="Висока">
+                      <span>Висока — індивідуальний складний візерунок</span>
+                    </label>
+                  </div>
+                </fieldset>
+                </div>
+              </fieldset>
+              <section class="rounded-xl bg-[#ffcc66] p-4 sm:p-6" aria-labelledby="estimate-title">
+                <h3 id="estimate-title" class="font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Попередня оцінка</h3>
+                <p class="mt-3 text-4xl font-bold text-[#1a1a1e]">Від 1 800 ₴</p>
+                <p class="mt-3 text-sm leading-6 text-[#1a1a1e]">
+                  Орієнтир для виробу ручної роботи. Точна вартість залежить від обраного типу, розміру, матеріалів і деталізації та буде підтверджена після заявки.
+                </p>
+                <p class="mt-3 text-sm font-medium text-[#1a1a1e]">
+                  Ця базова оцінка не змінюється автоматично при виборі параметрів.
+                </p>
+              </section>
+            </div>
+
+            <fieldset class="min-w-0 rounded-xl border border-[#eaeaeF] p-4 sm:p-6">
+                <legend class="px-2 font-['Cormorant_Garamond',Georgia,serif] text-2xl font-bold">Куди надіслати відповідь</legend>
+                <div class="mt-3 space-y-4">
+                  <div>
+                    <label class="mb-2 block text-sm font-semibold" for="customer-name">Ваше ім’я</label>
+                    <input
+                      class="min-h-12 w-full rounded-xl border border-[#8e8e93] bg-white px-4 text-base focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2"
+                      id="customer-name"
+                      name="Ім’я"
+                      type="text"
+                      autocomplete="name"
+                      required
+                    >
+                  </div>
+                  <div>
+                    <label class="mb-2 block text-sm font-semibold" for="customer-contact">Телефон або email</label>
+                    <input
+                      class="min-h-12 w-full rounded-xl border border-[#eaeaeF] bg-white px-4 text-base focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2"
+                      id="customer-contact"
+                      name="Контакт для відповіді"
+                      type="text"
+                      autocomplete="email"
+                      required
+                    >
+                  </div>
+                  <div>
+                    <label class="mb-2 block text-sm font-semibold" for="customer-details">Побажання <span class="font-normal text-[#5a5a65]">(необов’язково)</span></label>
+                    <textarea
+                      class="w-full rounded-xl border border-[#8e8e93] bg-white px-4 py-3 text-base placeholder:text-[#5a5a65] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2"
+                      id="customer-details"
+                      name="Побажання"
+                      rows="3"
+                      placeholder="Наприклад, бажані кольори або мотив"
+                    ></textarea>
+                  </div>
+                  <button
+                    class="flex min-h-12 w-full items-center justify-center rounded-xl bg-[#cc0033] px-6 py-3 font-semibold text-white transition-all duration-200 hover:-translate-y-1 hover:bg-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2 design-shadow"
+                    type="submit"
+                  >
+                    Надіслати заявку
+                  </button>
+                  <p class="text-xs leading-5 text-[#5a5a65]">
+                    Надсилання відкриє вашу поштову програму з параметрами заявки. Надсилаючи форму, ви погоджуєтеся на обробку контактних даних для відповіді на запит.
+                  </p>
+                </div>
+              </fieldset>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="bg-[#cc0033] py-12 text-white md:py-12" aria-labelledby="final-cta-title">
+        <div class="mx-auto max-w-7xl px-4 text-center md:px-6 lg:px-8">
+          <h2 id="final-cta-title" class="font-['Cormorant_Garamond',Georgia,serif] text-3xl font-bold text-white sm:text-4xl">
+            Ваша прикраса починається з ідеї
+          </h2>
+          <p class="mx-auto mt-3 max-w-2xl leading-7 text-white/90">
+            Оберіть параметри та надішліть заявку. Жодних зобов’язань — лише прозора розмова про вашу майбутню прикрасу.
+          </p>
+          <a
+            class="mt-6 flex min-h-12 w-full items-center justify-center rounded-xl bg-white px-6 py-3 font-semibold text-[#cc0033] transition-all duration-200 hover:-translate-y-1 hover:bg-[#e5e7eb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#cc0033] design-shadow sm:mx-auto sm:w-fit"
+            href="#calculator"
+          >
+            Розрахувати вартість
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-[#eaeaeF] bg-white py-8">
+      <div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-2 md:px-6 lg:grid-cols-3 lg:px-8">
+        <div>
+          <a
+            class="inline-flex rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#cc0033]"
+            href="index.html"
+            aria-label="Бісерна майстерня — головна"
+          >
+            <img class="w-32" src="assets/logo/logo.png" alt="Бісерна майстерня" width="240" height="64" loading="lazy">
+          </a>
+          <p class="mt-3 text-sm leading-6 text-[#5a5a65]">Авторські прикраси ручної роботи. Створено вручну, збережено з любов’ю.</p>
+        </div>
+        <section aria-labelledby="footer-contact-title">
+          <h2 id="footer-contact-title" class="font-semibold">Контакти</h2>
+          <ul class="mt-3 space-y-2 text-sm text-[#5a5a65]">
+            <li><a class="inline-flex min-h-11 items-center rounded-md transition-all duration-200 hover:text-[#cc0033] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="mailto:maisternia@biserna.ua">maisternia@biserna.ua</a></li>
+          </ul>
+          <!-- Google Maps integration: replace this consent prompt with the map iframe only after the visitor agrees. -->
+          <figure>
+            <div id="map-container" class="map-container flex items-center justify-center bg-[#f9fafb] p-4">
+              <div class="text-center">
+                <p id="map-consent-description" class="text-sm leading-6 text-[#5a5a65]">
+                  Інтерактивна карта завантажується від Google лише після вашої згоди. Google може отримувати дані про ваш пристрій і встановлювати cookies.
+                </p>
+                <button
+                  id="map-consent-button"
+                  class="mt-3 inline-flex min-h-11 items-center justify-center rounded-xl bg-[#cc0033] px-4 py-2 text-sm font-semibold text-white transition-all duration-200 hover:bg-[#a30029] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033] focus-visible:ring-2 focus-visible:ring-[#cc0033] focus-visible:ring-offset-2"
+                  type="button"
+                  aria-controls="map-container"
+                  aria-describedby="map-consent-description"
+                  data-map-src="https://www.google.com/maps?q=5-%D0%B9%20%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%20%D0%9D%D0%A3%20%E2%80%9C%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%E2%80%9D%2C%20%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%B0%20%D0%91%D0%B0%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%2C%2030%2C%20%D0%9B%D1%8C%D0%B2%D1%96%D0%B2&output=embed"
+                >
+                  Погоджуюсь і завантажити карту
+                </button>
+              </div>
+            </div>
+            <figcaption class="mt-2 text-xs leading-5 text-[#5a5a65]">
+              <a
+                class="inline-flex min-h-11 items-center rounded-md underline underline-offset-2 transition-colors hover:text-[#cc0033] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]"
+                href="https://maps.app.goo.gl/aRR5W1LcNd9RUS4L6?g_st=ac"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Відкрити локацію за наданим посиланням
+              </a>
+            </figcaption>
+          </figure>
+        </section>
+        <section aria-labelledby="footer-legal-title">
+          <h2 id="footer-legal-title" class="font-semibold">Інформація</h2>
+          <ul class="mt-3 space-y-2 text-sm text-[#5a5a65]">
+            <li><a class="inline-flex min-h-11 items-center rounded-md transition-all duration-200 hover:text-[#cc0033] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="mailto:maisternia@biserna.ua?subject=%D0%9F%D1%83%D0%B1%D0%BB%D1%96%D1%87%D0%BD%D0%B0%20%D0%BE%D1%84%D0%B5%D1%80%D1%82%D0%B0">Публічна оферта</a></li>
+            <li><a class="inline-flex min-h-11 items-center rounded-md transition-all duration-200 hover:text-[#cc0033] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#cc0033]" href="mailto:maisternia@biserna.ua?subject=%D0%9F%D0%BE%D0%BB%D1%96%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D1%96%D0%B4%D0%B5%D0%BD%D1%86%D1%96%D0%B9%D0%BD%D0%BE%D1%81%D1%82%D1%96">Політика конфіденційності</a></li>
+          </ul>
+        </section>
+      </div>
+      <p class="mx-auto mt-8 max-w-7xl border-t border-[#eaeaeF] px-4 pt-4 text-xs text-[#5a5a65] md:px-6 lg:px-8">
+        © Бісерна майстерня. Авторські прикраси ручної роботи.
+      </p>
+    </footer>
+    <script>
+      const videoConsentButton = document.getElementById("video-consent-button");
+      const videoContainer = document.getElementById("video-container");
+      const mapConsentButton = document.getElementById("map-consent-button");
+      const mapContainer = document.getElementById("map-container");
+
+      // Create the YouTube iframe after an explicit click so no YouTube player request is made on initial page load.
+      videoConsentButton.addEventListener("click", () => {
+        const video = document.createElement("iframe");
+        video.className = "h-full w-full";
+        video.src = videoConsentButton.dataset.videoSrc;
+        video.title = "Презентація авторських бісерних прикрас";
+        video.loading = "lazy";
+        video.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+        video.referrerPolicy = "strict-origin-when-cross-origin";
+        video.allowFullscreen = true;
+        videoContainer.replaceChildren(video);
+        video.focus();
+      });
+
+      // Create the Google Maps iframe only after consent; before that, the page makes no embedded-map request.
+      mapConsentButton.addEventListener("click", () => {
+        const map = document.createElement("iframe");
+        map.className = "map-iframe";
+        map.src = mapConsentButton.dataset.mapSrc;
+        map.title = "Google Maps: 5-й корпус НУ «Львівська політехніка», вулиця Степана Бандери, 30, Львів";
+        map.referrerPolicy = "no-referrer-when-downgrade";
+        map.allowFullscreen = true;
+        mapContainer.replaceChildren(map);
+        map.focus();
+      });
+    </script>
+  </body>
+</html>
